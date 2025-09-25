@@ -1,4 +1,3 @@
-# xenxo
 # 📌 Proyecto de Práctica con Markdown
 
 ## 1. Encabezados
@@ -44,30 +43,29 @@ Aquí usamos el comando `git status`.
 git init
 git add .
 git commit -m "Primer commit"
-
-
----
-
-### 📄 Archivo `extra.md`
-```markdown
-# 📖 Documento Extra
-
-Este es un documento adicional enlazado desde el `README.md`.
-
-## Contenido
-
-- **Objetivo:** practicar Markdown
-- **Lenguajes usados:**  
-  - Python  
-  - JavaScript  
-  - C++
+```
 
 ---
 
-## Código de ejemplo en Python
+## 6. Tablas
+| Lenguaje | Uso principal       | Popularidad |
+|----------|--------------------|--------------|
+| Python   | Ciencia de datos   | ⭐⭐⭐⭐⭐ |
+| Java     | Aplicaciones web   | ⭐⭐⭐⭐ |
+| C++      | Sistemas embebidos | ⭐⭐⭐ |
 
-```python
-def saludo():
-    print("¡Hola desde el documento extra!")
+---
 
-saludo()
+## 7. Enlaces
+- [Ir a Google](https://www.google.com)
+- [Ver documento extra](extra.md)
+
+---
+
+## 8. Imagen desde URL
+[![Imagen externa](https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg)](https://es.wikipedia.org/wiki/Markdown)
+
+---
+
+## 9. Imagen desde repositorio
+![Logo interno](images/logo.png)
